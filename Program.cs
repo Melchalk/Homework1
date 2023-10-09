@@ -6,6 +6,7 @@ Student student = new()
     Age = 20,
     StudentBag = new() { Capacity = 20 }
 };
+
 Console.Write("Введите количество пиццы: ");
 int countPizza = int.Parse(Console.ReadLine());
 if (!student.StudentBag.AddPizza(countPizza, student.StudentBag))
