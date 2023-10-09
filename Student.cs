@@ -34,7 +34,7 @@ namespace Homework
             //уславливаемся, что с возрастом нужно больше пива для опьянения
             double levelDrunk = student.StudentBag.PizzaPieces * student.Age;
             if (levelDrunk < normalDrunk)
-                return "Трез";
+                return "Трезв";
             else if (levelDrunk > normalDrunk)
                 return "Перепил";
             else

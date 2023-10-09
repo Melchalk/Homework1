@@ -20,6 +20,7 @@ namespace Homework
             if (bag.Capacity - countPizzaLiters >= 0)
             {
                 bag.Capacity -= countPizzaLiters;
+                PizzaPieces = pizzaPieces;
                 return true;
             }
             return false;
@@ -31,6 +32,7 @@ namespace Homework
             if (bag.Capacity - countBeerLiters >= 0)
             {
                 bag.Capacity -= countBeerLiters;
+                BeerBottles = beerBottles;
                 return true;
             }
             return false;
