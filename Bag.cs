@@ -18,6 +18,7 @@ internal class Bag
             PizzaPieces = pizzaPieces;
             return true;
         }
+
         return false;
     }
 
@@ -30,6 +31,7 @@ internal class Bag
             BeerBottles = beerBottles;
             return true;
         }
+
         return false;
     }
 }
